@@ -3,6 +3,7 @@ import SetTransaction from './SetTransaction'
 import Register from './Register'
 import Transactions from './Transactions'
 import LogIn from './LogIn'
+// import Login2 from './Login2'
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
         <LogIn/>
         <Transactions/>
         <SetTransaction/>
+        {/* <Login2/> */}
     </div>
   )
 }
